@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 :root {
     --primary-color: #85985A;
@@ -20,7 +20,7 @@ nav {
 }
 
 body {
-    font-family: 'Kalam', cursive;
+    font-family: 'Libre Baskerville', serif;
     width: 100%;
     margin: 0;
 }
@@ -39,7 +39,7 @@ button {
     border: none;
     padding: 1rem 2rem;
     margin: 1rem 0rem;
-    font-family: 'Kalam', cursive;
+    font-family: inherit;
     font-size: large;
     appearance: auto;
 }
@@ -48,7 +48,7 @@ button {
 textarea {
     display: block;
     border: black solid 1px;
-    font-family: 'Kalam', cursive;
+    font-family: inherit;
     margin-top: 2rem;
     font-size: large;
     width: 100%;
@@ -70,7 +70,7 @@ p {
     max-width: var(--primary-width);
     border: black solid 1px;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    font-family: inherit;
     font-size: large;
     min-height: 10vh;
     max-height: 20vh;
